@@ -220,6 +220,25 @@ display:inline;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*500 pixel screen*/
 
 
@@ -230,19 +249,21 @@ display:inline;
   *::after {
     box-sizing: border-box;
   }
-
   body {
     margin:0;
     padding:0;
     background-color: rgb(253,249,243);
   }
+
+  /*could be the problem*/
   div {
     display:block;
   }
   h1 {
     font-style: arial black;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 100px;
+    /*or 300px?*/
   }
   a {
     color: white;
@@ -270,7 +291,6 @@ display:inline;
   	}
   .navbar {
     position: fixed;
-    z-index: 100;
     width:100%;
     display:table;
     background-color: black;
@@ -278,14 +298,14 @@ display:inline;
     opacity: 0.81;
   }
   .navbar ul {
-    width:30em;
+    width:28.5em;
     display:block;
     margin:0 auto;
-    padding:1em 0;
+    padding:3.3em;
     float: right;
   }
   .navbar ul li {
-    width:5em;
+    width:4em;
     display:inline-block;
     padding:0;
     text-align:center;
@@ -298,23 +318,23 @@ display:inline;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    /*background-size: contain;*/
     /*height: 500px;
     /*max-height: 600px;*/
     /*max-width:100%;*/
-    height:700px;
+    /*height:500px;*/
     width:100%;
     padding-bottom:40%;
     padding-top: 0;
     margin: 0;
-    //opacity: 0.8;
+    opacity: 0.8;
   }
 
   .location {
     float: right;
   }
   .logo {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     background: url('http://i.imgur.com/2cSoC7D.jpg?1') no-repeat center center;
     background-size: contain;
@@ -329,9 +349,8 @@ display:inline;
     position: relative;
     background: url('http://i.imgur.com/neW4OS0.jpg?1') no-repeat center center;
     background-size: contain;
-    height: 710px;
+    height: 340px;
     width: 100%;
-    outline: 1px solid black;
     padding-bottom:41.67391%;
     opacity: 0.7;
   }
@@ -343,7 +362,7 @@ display:inline;
     position: relative;
     background: url('http://i.imgur.com/V32VrWw.jpg') no-repeat center center;
     background-size: contain;
-    height: 710px;
+    height: 340px;
     width: 100%;
     outline: 1px solid black;
     padding-bottom:41.67391%;
@@ -360,7 +379,6 @@ display:inline;
     background-size: contain;
     height: 710px;
     width: 100%;
-    outline: 1px solid black;
     padding-bottom: 41.67391;
     opacity:0.7;
     color: white;
@@ -406,10 +424,6 @@ display:inline;
   #map {
     margin-left: auto;
     margin-right: auto;
-  }
-  .emptybottom {
-    width: 100%;
-    height: 30px;
   }
 
 
