@@ -22,27 +22,40 @@ h1 {
   z-index: 100;
   width:100%;
   display:table;
-  background-color: darkgrey;
+  background-color: black;
   padding-top: 50px;
-  opacity: 0.6;
+  opacity: 0.7;
+  /*font-family: proximanovalight, Arial, Verdana, sans-serif;
+  			background-color: black;
+        opacity: 0.6;
+  			border-left: solid 1px grey;
+        padding-top: 50px;
+  			padding: 5px;
+  			padding-right: 50px;
+      		font-size: 16px;
+      		font-style: normal;
+      		font-weight: 300;
+      		line-height: -10;*/
 
 }
 .navbar ul {
   width:30em;
   display:block;
   margin:0 auto;
-  padding:1em 0;
+  padding:0.5em 0;
+  float: right;
   text-decoration: none;
   list-style-type:none;
 }
 .navbar ul li {
   width:10em;
   text-decoration: none;
-  display:block;
-  float:left;
-  padding:0;
+  display:inline-block;
+  float: right;
+  padding:0.5em;
   text-align:center;
-  font-family: sans-serif;
+  font-family: proximanovalight, Arial, Verdana, sans-serif;
+  color: white;
 }
 .hero{
   position: relative;
@@ -102,6 +115,49 @@ h1 {
   margin: 0 auto;
 
 }
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*.beers {
+  height:200px;
+  width:100%;
+}
+.ipa {
+  text-decoration: none;
+  display:inline;
+  background: url('http://i.imgur.com/393E2vvm.png?1') no-repeat;
+}
+.mild{
+text-decoration: none;
+display:inline;
+}
+.ordinary {
+text-decoration: none;
+display:inline;
+}
+.porter {
+text-decoration: none;
+display:inline;
+}
+.premium {
+text-decoration: none;
+display:inline;
+}
+.stout {
+text-decoration: none;
+display:inline;
+}
+.summer {
+text-decoration: none;
+display:inline;
+}*/
 #map {
   display: block;
   margin-left: auto;
