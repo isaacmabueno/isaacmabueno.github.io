@@ -143,6 +143,19 @@ a {
   margin: 0 auto;
 
 }
+.dudes {
+  background: url('http://i.imgur.com/mUhXnDL.jpg?1') no-repeat center center;
+  position: relative;
+  background-size: cover;
+  height: 710px;
+  width: 100%;
+  outline: 1px solid black;
+  padding-bottom: 41.67391;
+  opacity:0.7;
+  color: white;
+  weight: bold;
+
+}
 
 #owl-demo .item{
   margin: 3px;
