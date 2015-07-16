@@ -21,7 +21,10 @@ a {
   color: white;
   text-decoration: none;
   }
-
+p {
+  float: left;
+  width: 30%;
+}
   a:visted {
   color: white;
   text-decoration: none;
@@ -158,7 +161,13 @@ a {
 .ipa {
   text-decoration: none;
   display:inline;
-  background: url('http://i.imgur.com/393E2vvm.png?1') no-repeat;
+}
+.ipaimage {
+  background-image: url('http://i.imgur.com/393E2vv.png?1');
+  background-repeat: no-repeat;
+  float: right;
+  display: inline;
+  width: 45%;
 }
 .mild{
 text-decoration: none;
@@ -211,18 +220,206 @@ display:inline;
 
 
 
-
-
-
-
-
-
-
-/*responsive design- 500 and 820
+/*500 pixel screen*/
 
 
 @media (max-width: 500px) {
-  header {
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin:0;
+    padding:0;
+    background-color: rgb(253,249,243);
+  }
+  div {
+    display:block;
+  }
+  h1 {
+    font-style: arial black;
+    text-align: center;
+    padding-top: 300px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    }
+
+    a:visted {
+    color: white;
+    text-decoration: none;
+    }
+
+    a:hover {
+    color: rgb(153,101,21);
+  	text-decoration: underline;
+  	}
+
+  	a:focus {
+  	color: white;
+  	text-decoration: none;
+  	}
+
+  	a:active {
+  	color: white;
+  	text-decoration: none;
+  	}
+  .navbar {
+    position: fixed;
+    z-index: 100;
+    width:100%;
+    display:table;
+    background-color: black;
+    padding-top: 22px;
+    opacity: 0.81;
+  }
+  .navbar ul {
+    width:30em;
+    display:block;
+    margin:0 auto;
+    padding:1em 0;
+    float: right;
+  }
+  .navbar ul li {
+    width:5em;
+    display:inline-block;
+    padding:0;
+    text-align:center;
+    font-family:'Anton', sans-serif;
+    color: white;
+  }
+  .hero{
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.123), rgba(255,255,255,0.123)),linear-gradient(to bottom, rgba(30,5,0,0.55), rgba(20,30,5,0.55)), url('http://i.imgur.com/RyXAGXk.jpg?1');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    /*height: 500px;
+    /*max-height: 600px;*/
+    /*max-width:100%;*/
+    height:700px;
+    width:100%;
+    padding-bottom:40%;
+    padding-top: 0;
+    margin: 0;
+    //opacity: 0.8;
+  }
+
+  .location {
+    float: right;
+  }
+  .logo {
+    width: 70%;
+    margin: 0 auto;
+    background: url('http://i.imgur.com/2cSoC7D.jpg?1') no-repeat center center;
+    background-size: contain;
+    position:relative;
+    height:700px;
+    padding-bottom:42.85714%;
+    padding-top: 0;
+    opacity: 1;
+    display:none;
+  }
+  .opengarage {
+    position: relative;
+    background: url('http://i.imgur.com/neW4OS0.jpg?1') no-repeat center center;
+    background-size: contain;
+    height: 710px;
+    width: 100%;
+    outline: 1px solid black;
+    padding-bottom:41.67391%;
+    opacity: 0.7;
+  }
+  .empty {
+    height: 53px;
+    width: 100%;
+  }
+  .kegs {
+    position: relative;
+    background: url('http://i.imgur.com/V32VrWw.jpg') no-repeat center center;
+    background-size: contain;
+    height: 710px;
+    width: 100%;
+    outline: 1px solid black;
+    padding-bottom:41.67391%;
+    opacity:0.6;
+  }
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+  .dudes {
+    background: url('http://i.imgur.com/mUhXnDL.jpg?1') no-repeat center center;
+    position: relative;
+    background-size: contain;
+    height: 710px;
+    width: 100%;
+    outline: 1px solid black;
+    padding-bottom: 41.67391;
+    opacity:0.7;
+    color: white;
+    weight: bold;
+  }
+  #beers {
+    height: 710px;
+    width: 100%;
+  }
+  .ipa {
+    text-decoration: none;
+    display:inline;
+    background: url('http://i.imgur.com/393E2vvm.png?1') no-repeat;
+  }
+  .mild{
+  text-decoration: none;
+  display:inline;
+  }
+  .ordinary {
+  text-decoration: none;
+  display:inline;
+  }
+  .porter {
+  text-decoration: none;
+  display:inline;
+  }
+  .premium {
+  text-decoration: none;
+  display:inline;
+  }
+  .stout {
+  text-decoration: none;
+  display:inline;
+  }
+  .summer {
+  text-decoration: none;
+  display:inline;
+  }
+  #weather {
+    text-align: center;
+    font-family: Anton;
+  }
+  #map {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .emptybottom {
+    width: 100%;
+    height: 30px;
+  }
+
+
+
+
+
+
+
+
+  /*header {
     width: 100%auto;
     height: 70px;
     margin: 5px 0;
