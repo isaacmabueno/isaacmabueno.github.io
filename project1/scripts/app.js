@@ -4,6 +4,26 @@ $(document).ready(function() {
 
   $('.logo').fadeIn(3000);
   });
+// var app = app || {};
+// app.getRequest = {
+//   type: 'get',
+//   url: 'http://ga-chicago.github.io/project1/data.json'
+//   dataType: 'json',
+//   success: function(data) {
+//     console.log(data);
+//   },
+//   error: function(error) {
+//     console.log(error);
+//   }
+// };
+
+
+// var app = app
+// $.ajax(app.getRequest);
+
+
+
+
 
 //   $("#owl-demo").owlCarousel({
 //

@@ -57,7 +57,7 @@ a {
   float: right;
 }
 .navbar ul li {
-  width:6em;
+  width:5em;
   display:inline-block;
   padding:0;
   text-align:center;
@@ -196,10 +196,8 @@ text-decoration: none;
 display:inline;
 }
 #map {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 40%;
 }
 
 
