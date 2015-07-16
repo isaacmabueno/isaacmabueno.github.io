@@ -75,7 +75,7 @@ a {
   width:6em;
   text-decoration: none;
   display:inline-block;
-  float:left;
+  float:right;
   padding:0;
   text-align:center;
   font-family:'Anton', sans-serif;
@@ -87,7 +87,9 @@ a {
 }
 .hero{
   position: relative;
-  background: url('http://i.imgur.com/2vqFDJe.jpg?1') no-repeat center center;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.123), rgba(255,255,255,0.123)),linear-gradient(to bottom, rgba(30,5,0,0.55), rgba(20,30,5,0.55)), url('http://i.imgur.com/RyXAGXk.jpg?1');
+  background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   /*height: 500px;
@@ -98,13 +100,16 @@ a {
   padding-bottom:40%;
   padding-top: 0;
   margin: 0;
-  opacity: 0.8;
+  //opacity: 0.8;
+
+  /*other photo option http://i.imgur.com/RyXAGXk.jpg?1*/
 }
 .logo {
   width: 70%;
   margin: 0 auto;
   background: url('http://i.imgur.com/2cSoC7D.jpg?1') no-repeat center center;
   background-size: contain;
+  position:relative;
   /*position:relative;*/
   /*background: no-repeat center center;
   background-attachment: fixed;
@@ -117,6 +122,7 @@ a {
   padding-bottom:42.85714%;
   padding-top: 0;
   opacity: 1;
+  z-index:100;
 }
 .opengarage {
   position: relative;
@@ -156,7 +162,7 @@ a {
   weight: bold;
 
 }
-
+/*
 #owl-demo .item{
   margin: 3px;
 }
@@ -164,11 +170,16 @@ a {
   display: block;
   width: 100%;
   height: auto;
-}
+}*/
 
-/*.beers {
-  height:200px;
-  width:100%;
+
+
+
+
+
+#beers {
+  height: 710px;
+  width: 100%;
 }
 .ipa {
   text-decoration: none;
@@ -198,10 +209,72 @@ display:inline;
 .summer {
 text-decoration: none;
 display:inline;
-}*/
+}
 #map {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-left: 40%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive design- 500 and 820
+
+
+@media (max-width: 500px) {
+  header {
+    width: 100%auto;
+    height: 70px;
+    margin: 5px 0;
+  }
+main {
+  width: 85%;
+  margin: 0 auto;
+}
+  aside {
+    width: 100%auto;
+    height: 200px;
+    background-color: blue;
+    margin: 5px 0;
+  }
+
+  section {
+    width: 100%;
+    height: 400px;
+    background-color: green;
+    margin: 5px 0;
+  }
+
+  .floats {
+    width: 95%;
+    height: 100px;
+    border: 5px solid black;
+    margin: 5px 2px;
+  }
+  footer {
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+    margin: 5px 0;
+  }
+}*/
