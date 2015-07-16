@@ -2,8 +2,7 @@ $(document).ready(function() {
 
 
 
-  $('.logo').fadeIn(4000);
-  $('.navbar').fadeIn(2000);
+  $('.logo').fadeIn(3000);
   });
 
 //   $("#owl-demo").owlCarousel({
