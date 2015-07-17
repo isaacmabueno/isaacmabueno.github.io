@@ -19,7 +19,7 @@
   };
   //render the weather
   app.renderWeather = function(weatherData, selectorString) {
-    var template = weatherData.name + "," + weatherData.sys.country + " and the current weather is.. " + weatherData.weather[0].description;
+    var template = "Present Tense Fine Ales is located in " + weatherData.name + "," + weatherData.sys.country + " where the current weather is..." + weatherData.weather[0].description;
     $(selectorString).append(template);
     return true;
   };
