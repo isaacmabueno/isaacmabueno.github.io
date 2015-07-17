@@ -7,6 +7,6 @@
 
 **HOW THE WEBSITE WORKS:** The page is simple with complex elements, which is a primary character found in the flavor of Present Tense beers. 
 
-**TECHNOLOGIES USED:** HTML5, CSS3, GOOGLE API, WEATHER MAPS-AJAX CALL, JAVASCRIPT, JQUERY, OBJECT ORIENTED PROGRAMMING
+**TECHNOLOGIES USED:** HTML5, CSS3, GOOGLE API, WEATHER MAPS-AJAX/JSON, JAVASCRIPT, JQUERY, OBJECT ORIENTED PROGRAMMING
 
 **VERSION 2.0 will include:** Existing social media in the nav bar, a cleaner layout with better font types, "carousel" the beers using jQuery, additional screen sizes in object oriented programming
