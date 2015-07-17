@@ -35,6 +35,10 @@ a {
   color: white;
   text-decoration: none;
   }
+p {
+  float: left;
+  width: 30%;
+}
   a:visted {
   color: white;
   text-decoration: none;
@@ -133,15 +137,6 @@ a {
   padding-bottom:41.67391%;
   opacity: 0.7;
 }
-.quote {
-  font-family: Anton;
-  height: 100px;
-  width: 100%;
-
-}
-/*.about {
-  font-family: Playfair+Display;
-}*/
 .empty {
   height: 53px;
   width: 100%;
@@ -150,7 +145,7 @@ a {
   position: relative;
   background: url('http://i.imgur.com/V32VrWw.jpg') no-repeat center center;
   background-size: cover;
-  height: 500px;
+  height: 710px;
   width: 100%;
   outline: 1px solid black;
   padding-bottom:41.67391%;
@@ -159,26 +154,19 @@ a {
 .wrapper {
   width: 100%;
   margin: 0 auto;
+
 }
-#dudes {
+.dudes {
   background: url('http://i.imgur.com/mUhXnDL.jpg?1') no-repeat center center;
   position: relative;
   background-size: cover;
-  height: 550px;
+  height: 710px;
   width: 100%;
   outline: 1px solid black;
   padding-bottom: 41.67391;
   opacity:0.7;
-}
-.brew {
-  text-align: center;
-}
-.brewagraph {
-  text-align: left;
-  margin-left: 30px;
-  margin-right: 30px;
-  padding-bottom: 20px;
-
+  color: white;
+  weight: bold;
 }
 #beers {
   height: 710px;
@@ -206,7 +194,7 @@ li {
   margin-left: 700px;
 }
 .beer-image--mild {
-  background: url('http://i.imgur.com/8Ms6Xbx.png?1');
+  background: url('http://i.imgur.com/393E2vv.png?1');
   background-repeat: no-repeat;
   background-size: contain;
   height: 400px;
@@ -244,7 +232,7 @@ li {
   height: 400px;
   width: 40%;
   margin-left: 700px;
-}
+}*/
 #weather {
   text-align: center;
   font-family: Anton;
@@ -294,7 +282,7 @@ li {
 /*500 pixel screen*/
 
 
-@media (max-width: iphone6) {
+@media (max-width: 500px) {
 
   *,
   *::before,
@@ -440,54 +428,34 @@ li {
     height: 710px;
     width: 100%;
   }
-
-  .beer-image--ipa {
-    background: url('http://i.imgur.com/393E2vv.png?1');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 250px;
-    width: 96%;
-    margin-left: 250px;
+  .ipa {
+    text-decoration: none;
+    display:inline;
+    background: url('http://i.imgur.com/393E2vvm.png?1') no-repeat;
   }
-  .beer-image--mild {
-    background: url('http://i.imgur.com/8Ms6Xbx.png?1');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 250px;
-    width: 40%;
-    margin-left: 250px;
+  .mild{
+  text-decoration: none;
+  display:inline;
   }
-  .beer-image--ordinary {
-    background: url('http://i.imgur.com/EDuvTVS.png?1');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 250px;
-    width: 40%;
-    margin-left: 250px;
+  .ordinary {
+  text-decoration: none;
+  display:inline;
   }
-  .beer-image--porter {
-    background: url('http://i.imgur.com/FZClLX9.png?1');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 250px;
-    width: 40%;
-    margin-left: 250px;
+  .porter {
+  text-decoration: none;
+  display:inline;
   }
-  .beer-image--premium {
-    background: url('http://i.imgur.com/zJswZon.png?1');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 250px;
-    width: 40%;
-    margin-left: 250px;
+  .premium {
+  text-decoration: none;
+  display:inline;
   }
-  .beer-image--stout {
-    background: url('http://i.imgur.com/XOwhhWI.png?1');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 250px;
-    width: 40%;
-    margin-left: 250px;
+  .stout {
+  text-decoration: none;
+  display:inline;
+  }
+  .summer {
+  text-decoration: none;
+  display:inline;
   }
   #weather {
     text-align: center;

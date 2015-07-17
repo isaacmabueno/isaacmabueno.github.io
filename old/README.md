@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-Here are some facts about me
-1- I play drums
-2- I ride bikes
-3- I love the city
-=======
 ![alt image](http://i.imgur.com/Ha1lR18.png?1)
 
 **"Present Tense Fine Ales":VERSION 1.0 (built in 3 days)**
@@ -16,4 +10,3 @@ Here are some facts about me
 **TECHNOLOGIES USED:** HTML5, CSS3, GOOGLE API, WEATHER MAPS-AJAX/JSON, JAVASCRIPT, JQUERY, OBJECT ORIENTED PROGRAMMING
 
 **VERSION 2.0 will include:** Existing social media in the nav bar, a smoother layout with better font types, "carousel" the beers using jQuery and additional jQuery animation, additional screen sizes in object oriented programming
->>>>>>> 50646346aca44e56a191212c25cfc30af0fb8e68
