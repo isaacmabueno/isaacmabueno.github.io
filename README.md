@@ -9,4 +9,4 @@
 
 **TECHNOLOGIES USED:** HTML5, CSS3, GOOGLE API, WEATHER MAPS-AJAX/JSON, JAVASCRIPT, JQUERY, OBJECT ORIENTED PROGRAMMING
 
-**VERSION 2.0 will include:** Existing social media in the nav bar, a cleaner layout with better font types, "carousel" the beers using jQuery, additional screen sizes in object oriented programming
+**VERSION 2.0 will include:** Existing social media in the nav bar, a smoother layout with better font types, "carousel" the beers using jQuery and additional jQuery animation, additional screen sizes in object oriented programming
