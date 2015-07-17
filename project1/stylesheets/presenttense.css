@@ -31,6 +31,10 @@ h1 {
   text-align: center;
   padding-top: 300px;
 }
+h5 {
+  font-family: Anton;
+
+}
 a {
   color: white;
   text-decoration: none;
@@ -172,6 +176,7 @@ a {
 }
 .brew {
   text-align: center;
+  padding-top: 100px;
 }
 .brewagraph {
   text-align: left;
@@ -294,7 +299,7 @@ li {
 /*500 pixel screen*/
 
 
-@media (max-width: iphone6) {
+@media (max-width: 500px) {
 
   *,
   *::before,
