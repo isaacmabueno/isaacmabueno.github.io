@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-Here are some facts about me
-1- I play drums
-2- I ride bikes
-3- I love the city
-=======
 ![alt image](http://i.imgur.com/Ha1lR18.png?1)
 
 **"Present Tense Fine Ales":VERSION 1.0 (built in 3 days)**
