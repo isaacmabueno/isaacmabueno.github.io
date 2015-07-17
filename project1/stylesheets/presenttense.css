@@ -160,68 +160,62 @@ p {
 }
 .beer-description {
   float: left;
-  display:flex;
-  text-decoration: none;
 }
 p {
   float: left;
   width: 30%;
   padding-left: 30px;
 }
+li {
+  list-style-type: none;
+}
 .beer-image--ipa {
-  width:42%;
-  height: 400px;
+  width:10%;
+  height: 40px;
   float: right;
   position: absolute;
   background-size: contain;
   opacity:0.8;
 }
 .beer-image--mild {
-  background: url('http://i.imgur.com/8Ms6Xbx.png?1');
+  background: url('http://i.imgur.com/393E2vv.png?1');
   background-repeat: no-repeat;
   background-size: contain;
-  height: 200px;
+  height: 400px;
   width: 40%;
+  margin-left: 700px;
 }
-/*.beer-image--ordinary {
+.beer-image--ordinary {
   background: url('http://i.imgur.com/EDuvTVS.png?1');
   background-repeat: no-repeat;
-  width:42%;
-  height: 400px;
-  float: right;
-  position: absolute;
   background-size: contain;
-  opacity:0.8;
+  height: 400px;
+  width: 40%;
+  margin-left: 700px;
 }
 .beer-image--porter {
   background: url('http://i.imgur.com/FZClLX9.png?1');
   background-repeat: no-repeat;
-  width:42%;
-  height: 400px;
-  float: right;
-  position: absolute;
   background-size: contain;
-  opacity:0.8;
+  height: 400px;
+  width: 40%;
+  margin-left: 700px;
 }
 .beer-image--premium {
   background: url('http://i.imgur.com/zJswZon.png?1');
   background-repeat: no-repeat;
-  width:42%;
-  height: 400px;
-  float: right;
-  position: absolute;
   background-size: contain;
-  opacity:0.8;
+  height: 400px;
+  width: 40%;
+  margin-left: 700px;
 }
 .beer-image--stout {
-  background: url('http://i.imgur.com/XOwhhWI.png?1');'
+  background: url('http://i.imgur.com/XOwhhWI.png?1');
   background-repeat: no-repeat;
-  width:42%;
-  height: 400px;
-  float: right;
-  position: absolute;
   background-size: contain;
-  opacity:0.8;'
+  height: 400px;
+  width: 40%;
+  margin-left: 700px;
 }*/
 #weather {
   text-align: center;
