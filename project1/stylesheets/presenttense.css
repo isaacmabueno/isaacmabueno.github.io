@@ -134,7 +134,6 @@ a {
   width: 100%;
   outline: 1px solid black;
   padding-bottom:41.67391%;
-  opacity: 0.7;
 }
 .quote {
   font-family: Anton;
@@ -176,14 +175,20 @@ a {
 .names {
   font-family: archivo narrow;
   text-align: center;
+  font-size: 35px;
+  margin-bottom: 0;
+  margin-top: 15px;
+  padding-right: 168px;
+  padding-left: 0;
+  height: 310px;
 }
 .brewagraph {
-  text-align: left;
-  margin-left: 30px;
-  margin-right: 30px;
-  padding-bottom: 20px;
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 50px;
   font-family: archivo narrow;
-
+  text-rendering: geometricPrecision;
 }
 #beers {
   height: 710px;
@@ -232,13 +237,20 @@ li {
 
 }
 hr {
-  width:97%;
+  width: 97%;
+  margin-right: 40px;
 }
 .beerfo {
-  width: 230px;
+  width: 296px;
   float: left;
+  font-size: 16px;
+  font-family: archivo narrow;
 }
-
+.beerme {
+  font-size: 40px;
+  margin: 0;
+  /*text-decoration: overline;*/
+}
 .beer-image--ipa {
   background: url('http://i.imgur.com/393E2vv.png?1');
   background-repeat: no-repeat;
