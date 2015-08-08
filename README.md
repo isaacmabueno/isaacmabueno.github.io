@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # jQueryBoilerplate
 A simple jQuery Boilerplate for students to use!
 =======
@@ -16,3 +17,9 @@ A simple jQuery Boilerplate for students to use!
 **VERSION 2.0 will include:** Existing social media in the nav bar, a smoother layout with better font types, "carousel" the beers using jQuery and additional jQuery animation, additional screen sizes in object oriented programming
 >>>>>>> 50646346aca44e56a191212c25cfc30af0fb8e68
 >>>>>>> 35e8a247c9ff2c018b527e81304df5800da29255
+=======
+Here are some facts about me
+1- I play drums
+2- I ride bikes
+3- I love the city
+>>>>>>> parent of dd5d7aa... update

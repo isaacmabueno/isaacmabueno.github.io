@@ -38,6 +38,7 @@ $('.emptytop').delay(3000).slideUp(2000);
 $('.navbar').hide();
 $('.navbar').delay(3000).fadeIn(2500);
 
+});
 
 
 
