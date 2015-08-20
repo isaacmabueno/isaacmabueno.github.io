@@ -128,7 +128,6 @@ a {
   height:700px;
   padding-bottom:42.85714%;
   padding-top: 0;
-  opacity: 1;
   display:none;
 }
 .opengarage {
@@ -504,6 +503,22 @@ hr {
 
   .beer-image--ipa {
     background: url('http://i.imgur.com/393E2vv.png?1');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 96%;
+    margin-left: 250px;
+  }
+  .beer-image--tripel {
+    background: url('http://i.imgur.com/SWDSouD.png?1');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 96%;
+    margin-left: 250px;
+  }
+  .beer-image--esb {
+    background: url('http://i.imgur.com/Q90PTXr.png?1');
     background-repeat: no-repeat;
     background-size: contain;
     height: 250px;

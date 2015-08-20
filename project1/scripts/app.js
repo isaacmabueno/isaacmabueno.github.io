@@ -28,20 +28,26 @@
 $(document).ready(function(){
   console.log("let's get ready to rumble!");
   var weatherData = app.fetchWeather();
-
+//
 $('.logo').fadeIn(2000);
 
 // // $('.emptytop').click(function(event){
 //   $('.emptytop').slideUp(3000);
 // });
-$('.emptytop').delay(3000).slideUp(2000);
+
+$('.hero').delay(3000).slideUp(3000);
 $('.navbar').hide();
-$('.navbar').delay(3000).fadeIn(2500);
+$('.navbar').delay(3000).fadeIn(3000);
 
 });
 
 
-
+   //
+  //  $('html, body').animate({
+  //      scrollTop: $( $(this).attr('href') ).offset().top
+  //  }, 500);
+  // $('.hero').delay(3000).animate({
+  //   marginTop: '-100%'
 
 
 
