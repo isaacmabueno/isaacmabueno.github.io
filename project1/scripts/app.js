@@ -29,13 +29,14 @@ $(document).ready(function(){
   console.log("let's get ready to rumble!");
   var weatherData = app.fetchWeather();
 //
-$('.logo').fadeIn(2000);
 
+$('.logo').slideDown(4000);
+$('.logo1').fadeIn(4000);
 // // $('.emptytop').click(function(event){
 //   $('.emptytop').slideUp(3000);
 // });
 
-$('.hero').delay(3000).slideUp(3000);
+$('.hero').delay(2000).slideUp(3000);
 $('.navbar').hide();
 $('.navbar').delay(3000).fadeIn(3000);
 
