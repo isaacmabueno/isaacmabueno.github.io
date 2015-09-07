@@ -389,7 +389,6 @@ hr {
   float:left;
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: 50%;
   margin-left: 5%;
 }
 .thomas {
@@ -400,7 +399,6 @@ hr {
   background-repeat: no-repeat;
   background-size: contain;
   z-index: auto;
-  border-radius: 50%;
   margin-right: 5%;
 }
 .layerover {
