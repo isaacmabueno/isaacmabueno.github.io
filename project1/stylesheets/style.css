@@ -85,10 +85,6 @@ a {
   font-family:Anton, sans-serif;
   color: white;
 }
-/*.infonav:hover {
-  color: rgb(153,101,21);
-  text-decoration: underline;
-}*/
 .hero{
   position: relative;
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.123), rgba(255,255,255,0.123)), url('http://i.imgur.com/RyXAGXk.jpg?1');
@@ -114,7 +110,7 @@ a {
 .logo {
   width: 70%;
   margin: 0 auto;
-  background: url('http://i.imgur.com/hYP46mr.png') no-repeat center center;
+  background: url('http://i.imgur.com/kN3fdT2.png?1') no-repeat center center;
   background-size: contain;
   position:relative;
   /*position:relative;*/
@@ -407,14 +403,9 @@ hr {
   border-radius: 50%;
   margin-right: 5%;
 }
-.cont {
-  font-family: archivo narrow;
-  font-size: 50px;
-  color:white;
-}
 .layerover {
   border: 2px solid rgb(192, 177, 162);
-  width: 50%;
+  width: 75%;
   height: 30em;
   /* color: black; */
   background-color: rgba(0, 0, 0, 0.47);
@@ -429,14 +420,18 @@ hr {
   padding-left: 20%;
 }
 .c-email {
-  float: left;
-  width: 30%;
   font-family: archivo narrow;
-  font-size: larger;
-  margin-left: 35px;
-  color: rgb(153,101,21);
+  font-size: 35px;
+  margin-left: 10%;
+  color: black;
 }
-
+.qi{
+  font-family: archivo narrow;
+  font-size: 20px;
+  color: black;
+  float: right;
+  margin-top: 8%;
+}
 
 
 
