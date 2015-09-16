@@ -371,35 +371,9 @@ hr {
   height: 30px;
 }
 
-.theguys {
-  font-family: archivo narrow;
-  text-align: center;
-  font-size: 40px;
-  height: 90px;
-  width: 300px;
-}
 .golden {
   color: rgb(153,101,21);
   font-size: 50px;
-}
-.tyler {
-  background-image: url('http://i.imgur.com/u9usKwb.jpg?1');
-  height:403px;
-  width: 21%;
-  float:left;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-left: 5%;
-}
-.thomas {
-  background-image: url('http://i.imgur.com/mbTU9iK.jpg');
-  height:403px;
-  width: 21%;
-  float:right;
-  background-repeat: no-repeat;
-  background-size: contain;
-  z-index: auto;
-  margin-right: 5%;
 }
 .layerover {
   border: 2px solid rgb(192, 177, 162);
@@ -407,7 +381,6 @@ hr {
   height: 30em;
   /* color: black; */
   background-color: rgba(0, 0, 0, 0.47);
-
 }
 .contacts {
   background-image: url('http://i.imgur.com/mUhXnDL.jpg?1');
