@@ -11,15 +11,18 @@ body {
   margin-bottom: 50px;
 }
 .grey.darken-3 {
-  background-color: #263238 !important;
+  background-color: #CDCDCD !important;
   margin-bottom: 0 !important;
 }
 .name {
   margin-bottom: 100% !important;
 }
+.intro {
+  background-color: #CDCDCD !important;
+}
 .text-darken-1 {
   color: rgb(121, 102, 77)!important;
-  background-color: #263238 !important;
+  background-color: #CDCDCD !important;
   margin-top: 0;
 }
 .intro h1 {
@@ -30,15 +33,20 @@ body {
 }
 nav ul a{
   color: rgb(121,102,77) !important;
+  font-size: 20px;
+  font-weight: 300;
 }
-nav .brand-logo {
-
+nav .nav-wrapper {
+  background-color: black;
+}
+nav a.button-collapse i {
+  height: 65px;
+  line-height: 64px;
+  color: rgb(121, 102, 77);
 }
 #container {
 margin:0 auto;
-background-color:white;
 top:100%;
-border: 2px solid white;
 }
 .intro h5 {
   text-transform: uppercase;
