@@ -106,17 +106,17 @@ top:100%;
   float: left;
 }
 .collapsible-header {
-  background-color:#D3DDDC;
+  background-color: #798e87;
   border-bottom: 2px solid white;
+  color: white;
+  font-family: "Playfair Display SC";
+  font-size: larger;
 }
 .collapsible-body p {
   padding:0;
-  margin-top:5%;
-  margin-bottom: 5%;
+  margin: 5%;
   color: black !important;
-}
-.portfolio .col {
-    margin-bottom: 10px;
+  font-weight: 200;
 }
 
 .portfolio h5 {
