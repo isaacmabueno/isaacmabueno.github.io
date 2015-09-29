@@ -11,28 +11,28 @@ body {
   margin-bottom: 50px;
 }
 .grey.darken-3 {
-  background-color: #CDCDCD !important;
+  background-color: #798e87 !important;
   margin-bottom: 0 !important;
 }
 .name {
   margin-bottom: 100% !important;
 }
 .intro {
-  background-color: #CDCDCD !important;
+  background-color: #798e87 !important;
 }
 .text-darken-1 {
-  color: rgb(121, 102, 77)!important;
-  background-color: #CDCDCD !important;
+  color: #CCC591 !important;
+  background-color: #798e87 !important;
   margin-top: 0;
 }
 .intro h1 {
   font-weight: 600;
   text-transform: uppercase;
   font-size:5em;
-  color: rgb(121,102,77);
+  color: #CCC591;
 }
 nav ul a{
-  color: rgb(121,102,77) !important;
+  color: #CCC591 !important;
   font-size: 20px;
   font-weight: 300;
 }
@@ -42,7 +42,7 @@ nav .nav-wrapper {
 nav a.button-collapse i {
   height: 65px;
   line-height: 64px;
-  color: rgb(121, 102, 77);
+  color: #CCC591;
 }
 #container {
 margin:0 auto;
@@ -91,10 +91,29 @@ top:100%;
   width: 40px;
   margin-bottom: 45px;
 }
+.row {
+  height: 300%;
+}
 
 .about .card {
   text-align: center;
   width: 100%;
+}
+.card-panel {
+  float: left;
+}
+.card-panel p {
+  float: left;
+}
+.collapsible-header {
+  background-color:#D3DDDC;
+  border-bottom: 2px solid white;
+}
+.collapsible-body p {
+  padding:0;
+  margin-top:5%;
+  margin-bottom: 5%;
+  color: black !important;
 }
 .portfolio .col {
     margin-bottom: 10px;

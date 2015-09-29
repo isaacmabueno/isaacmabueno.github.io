@@ -8,7 +8,12 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.materialboxed').materialbox();
     $(".button-collapse").sideNav();
+    // figure out how to have the nav bar close on click
+    // $('materialboxed').click(hide);
+    //
+    // mobile demo ul
 });
+
 // $(document).ready(function() {
 //     $(document).scroll(function () {
 //         var scroll = $(this).scrollTop();
@@ -24,3 +29,8 @@ $(document).ready(function() {
   $('.talkingheads').hide();
 $('.talkingheads').delay(3000).fadeIn(3000);
 });
+$(document).ready(function(){
+   $('.collapsible').collapsible({
+     accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+   });
+ });
