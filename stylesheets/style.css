@@ -146,6 +146,15 @@ top:100%;
     display: inline-block;
     float: left;
 }
+/*.about-img {
+  height: 35vw;
+  width: 25%;
+  border-radius: 50%;
+  margin: 5%;
+}*/
+.about-desc {
+  float: right;
+}
 
 .contact .col {
     margin-bottom: 24px;
@@ -220,21 +229,18 @@ footer{
   height: 5vw;
   width: 100%;
 }
-.nav-wrapper {
-
-}
 .portfolio h5{
   color: #263238;
 }
 .portfolio h6{
   color: #263238;
 }
-.parallax-container {
+/*.parallax-container {
   position: relative;
   overflow: hidden;
   height: 500px;
   width: 100%;
-}
+}*/
 /*.side-nav{
   position: inherit;
   width: 13%;
@@ -248,6 +254,10 @@ footer{
   height: auto !important;
   margin-left: 35%;
   }
+  .about-desc {
+    float: none;
+    margin: 5%;
+  }
 }
 
 @media screen and (min-width:400px) {
@@ -256,4 +266,8 @@ footer{
   height: auto !important;
   margin-left: 35%;
   }
+.about-desc {
+  float: none;
+  margin: 5%;
+}
 }
