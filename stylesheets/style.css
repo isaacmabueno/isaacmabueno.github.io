@@ -155,6 +155,13 @@ top:100%;
 .about-desc {
   float: right;
 }
+.about h5{
+  color: black;
+  margin-top: 5%;
+}
+.about p{
+  color: black;
+}
 
 .contact .col {
     margin-bottom: 24px;
