@@ -26,8 +26,16 @@ $(document).ready(function(){
 //     });
 // });
 $(document).ready(function() {
-  $('.talkingheads').hide();
-$('.talkingheads').delay(3000).fadeIn(3000);
+  $('.talking-heads').hide();
+$('.talking-heads').fadeIn(3000);
+  $('.name').hide();
+$('.name').fadeIn(2000);
+  $('.title').hide();
+$('.title').delay(2000).fadeIn(0800);
+  $('.right').hide();
+$('.right').fadeIn(2000);
+  $('.side-nav').hide();
+$('.side-nav').fadeIn(2000);
 });
 $(document).ready(function(){
    $('.collapsible').collapsible({

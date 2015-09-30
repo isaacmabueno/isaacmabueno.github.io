@@ -2,7 +2,7 @@ body, html {
   background-color: #EDEDED !important;
 }
 body {
-  background-color: white!important;
+  background-color: rgba(128, 128, 128, 0.1) !important;
 }
 .intro {
   text-align: center;
@@ -11,18 +11,18 @@ body {
   margin-bottom: 50px;
 }
 .grey.darken-3 {
-  background-color: #798e87 !important;
+  background-color: #C0DAD5 !important;
   margin-bottom: 0 !important;
 }
-.name {
+/*.name {
   margin-bottom: 100% !important;
-}
+}*/
 .intro {
-  background-color: #798e87 !important;
+  background-color: #C0DAD5 !important;
 }
 .text-darken-1 {
   color: #CCC591 !important;
-  background-color: #798e87 !important;
+  background-color: #C0DAD5 !important;
   margin-top: 0;
 }
 .intro h1 {
@@ -35,6 +35,7 @@ nav ul a{
   color: #CCC591 !important;
   font-size: 20px;
   font-weight: 300;
+  font-family: Fjalla One;
 }
 nav .nav-wrapper {
   background-color: black;
@@ -60,9 +61,14 @@ top:100%;
   margin-left: 30%;
   margin-top: 3%;
 }
-.talkingheads {
-  z-index:10 !important;
-  margin-top:30% !important;
+.talking-heads {
+  display: none;
+}
+.right {
+  display: none;
+}
+.side-nav {
+  display: none;
 }
 .about .col {
   margin-bottom: 24px;
@@ -79,6 +85,7 @@ top:100%;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 15px;
+  font-family: Fjalla One;
 }
 
 .about h6 {
@@ -106,10 +113,10 @@ top:100%;
   float: left;
 }
 .collapsible-header {
-  background-color: #798e87;
-  border-bottom: 2px solid white;
-  color: white;
-  font-family: "Playfair Display SC";
+  background-color: white;
+  border-bottom: 1px solid black;
+  color: black;
+  font-family: "Open Sans Condensed";
   font-size: larger;
 }
 .collapsible-body p {
@@ -118,11 +125,12 @@ top:100%;
   color: black !important;
   font-weight: 200;
 }
-
 .portfolio h5 {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
+    /*font-family: Pacifico;*/
+    /*font-size:40px;*/
 }
 
 .portfolio h6 {
@@ -146,14 +154,15 @@ top:100%;
     display: inline-block;
     float: left;
 }
-/*.about-img {
-  height: 35vw;
-  width: 25%;
-  border-radius: 50%;
-  margin: 5%;
-}*/
-.about-desc {
-  float: right;
+.about-img {
+  margin: 5% !important;
+}
+.transparent-bg {
+  background-color: #FDD262;
+  width: 100%;
+}
+.no-code {
+  color: #AF420A !important;
 }
 .about h5{
   color: black;
@@ -161,6 +170,8 @@ top:100%;
 }
 .about p{
   color: black;
+  font-family: Open Sans Condensed;
+  font-size: larger;
 }
 
 .contact .col {
@@ -171,6 +182,7 @@ top:100%;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
+    font-family: "Fjalla One" !important;
 }
 
 .contact h6 {
@@ -238,6 +250,7 @@ footer{
 }
 .portfolio h5{
   color: #263238;
+  font-family: Fjalla One;
 }
 .portfolio h6{
   color: #263238;
@@ -252,8 +265,33 @@ footer{
   position: inherit;
   width: 13%;
 }*/
+.github {
 
+  max-width: 33px;
+  max-height: 33px;
+  width: 50px;
+  height: 50px;
+}
+.linkedin{
 
+  margin-left: 2%;
+  max-width: 33px;
+  max-height: 33px;
+  width: 50px;
+  height: 50px;
+}
+.twitter{
+
+  margin-left: 2%;
+  max-width: 33px;
+  max-height: 33px;
+  width: 50px;
+  height: 50px;
+}
+footer {
+  border-top: 1px solid black;
+  width: 100%;
+}
 
 @media screen and (max-width:600px) {
 .brand-logo img {
@@ -276,5 +314,25 @@ footer{
 .about-desc {
   float: none;
   margin: 5%;
+}
+.github {
+  max-width: 33px;
+  max-height: 33px;
+  width: 30px;
+  height: 30px;
+}
+.linkedin{
+  margin-left: 2%;
+  max-width: 33px;
+  max-height: 33px;
+  width: 30px;
+  height: 30px;
+}
+.twitter{
+  margin-left: 2%;
+  max-width: 33px;
+  max-height: 33px;
+  width: 30px;
+  height: 30px;
 }
 }
