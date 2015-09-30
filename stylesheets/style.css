@@ -4,6 +4,12 @@ body, html {
 body {
   background-color: rgba(128, 128, 128, 0.1) !important;
 }
+.anchor {
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
 .intro {
   text-align: center;
   padding-top: 13%;
@@ -36,6 +42,7 @@ nav ul a{
   font-size: 20px;
   font-weight: 300;
   font-family: Fjalla One;
+  text-transform: uppercase;
 }
 nav .nav-wrapper {
   background-color: black;
@@ -113,15 +120,16 @@ top:100%;
   float: left;
 }
 .collapsible-header {
-  background-color: white;
+  background-color: rgba(192, 218, 213, 0.55);
   border-bottom: 1px solid black;
   color: black;
-  font-family: "Open Sans Condensed";
+  font-family: "Oranienbaum";
+  text-transform: uppercase;
+  letter-spacing: 1px;
   font-size: larger;
 }
 .collapsible-body p {
-  padding:0;
-  margin: 5%;
+  padding:5%;
   color: black !important;
   font-weight: 200;
 }
@@ -129,8 +137,6 @@ top:100%;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
-    /*font-family: Pacifico;*/
-    /*font-size:40px;*/
 }
 
 .portfolio h6 {
@@ -173,7 +179,12 @@ top:100%;
   font-family: Open Sans Condensed;
   font-size: larger;
 }
-
+.about-first {
+  margin-top: 5%;
+}
+.about-second {
+  margin-top: 5%;
+}
 .contact .col {
     margin-bottom: 24px;
 }
@@ -261,33 +272,16 @@ footer{
   height: 500px;
   width: 100%;
 }*/
-/*.side-nav{
-  position: inherit;
-  width: 13%;
-}*/
-.github {
-
-  max-width: 33px;
-  max-height: 33px;
-  width: 50px;
-  height: 50px;
+.side-nav{
+height: calc(18.9% + 60px);
 }
-.linkedin{
 
-  margin-left: 2%;
-  max-width: 33px;
-  max-height: 33px;
-  width: 50px;
-  height: 50px;
-}
-.twitter{
+.github a:hover{
+  color: white;
 
-  margin-left: 2%;
-  max-width: 33px;
-  max-height: 33px;
-  width: 50px;
-  height: 50px;
 }
+
+
 footer {
   border-top: 1px solid black;
   width: 100%;
@@ -299,7 +293,7 @@ footer {
   height: auto !important;
   margin-left: 35%;
   }
-  .about-desc {
+.about-desc {
     float: none;
     margin: 5%;
   }

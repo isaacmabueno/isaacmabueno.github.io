@@ -10,8 +10,6 @@ $(document).ready(function(){
     $(".button-collapse").sideNav();
     // figure out how to have the nav bar close on click
     // $('materialboxed').click(hide);
-    //
-    // mobile demo ul
 });
 
 // $(document).ready(function() {
@@ -29,13 +27,13 @@ $(document).ready(function() {
   $('.talking-heads').hide();
 $('.talking-heads').fadeIn(3000);
   $('.name').hide();
-$('.name').fadeIn(2000);
+$('.name').fadeIn(1500);
   $('.title').hide();
-$('.title').delay(2000).fadeIn(0800);
+$('.title').delay(1500).fadeIn(0800);
   $('.right').hide();
-$('.right').fadeIn(2000);
+$('.right').fadeIn(1500);
   $('.side-nav').hide();
-$('.side-nav').fadeIn(2000);
+$('.side-nav').fadeIn(1500);
 });
 $(document).ready(function(){
    $('.collapsible').collapsible({
