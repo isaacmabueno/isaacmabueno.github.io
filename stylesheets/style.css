@@ -2,7 +2,7 @@ body, html {
   background-color: #EDEDED !important;
 }
 body {
-  background-color: rgba(128, 128, 128, 0.1) !important;
+  background-color: rgba(128, 128, 128, 0.13) !important;
 }
 .anchor {
   display: block;
@@ -108,6 +108,13 @@ top:100%;
 .row {
   height: 300%;
 }
+.row .col.s5{
+  margin-left: 5%;
+  width: 33%;
+}
+.code {
+  font-weight: bold;
+}
 
 .about .card {
   text-align: center;
@@ -126,7 +133,7 @@ top:100%;
   font-family: "Oranienbaum";
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: larger;
+  font-size: medium;
 }
 .collapsible-body p {
   padding:5%;
@@ -160,15 +167,17 @@ top:100%;
     display: inline-block;
     float: left;
 }
-.about-img {
+/*.about-img {
   margin: 5% !important;
-}
+}*/
 .transparent-bg {
   background-color: #FDD262;
   width: 100%;
+  border-radius: 1%;
 }
 .no-code {
   color: #AF420A !important;
+  font-weight: bold
 }
 .about h5{
   color: black;
@@ -182,8 +191,12 @@ top:100%;
 .about-first {
   margin-top: 5%;
 }
-.about-second {
-  margin-top: 5%;
+
+.experience {
+  font-weight: bold;
+}
+.about img {
+  margin-top: 10%;
 }
 .contact .col {
     margin-bottom: 24px;
@@ -276,9 +289,8 @@ footer{
 height: calc(18.9% + 60px);
 }
 
-.github a:hover{
-  color: white;
-
+.github img:hover{
+  color: white !important;
 }
 
 
@@ -305,6 +317,43 @@ footer {
   height: auto !important;
   margin-left: 35%;
   }
+.about-desc {
+  float: none;
+  margin: 5%;
+}
+.about img {
+  margin-top: 30%;
+}
+.github {
+  max-width: 33px;
+  max-height: 33px;
+  width: 30px;
+  height: 30px;
+}
+.linkedin{
+  margin-left: 2%;
+  max-width: 33px;
+  max-height: 33px;
+  width: 30px;
+  height: 30px;
+}
+.twitter{
+  margin-left: 2%;
+  max-width: 33px;
+  max-height: 33px;
+  width: 30px;
+  height: 30px;
+}
+}
+@media screen and (min-width:300px) {
+.brand-logo img {
+  width: 30% !important;
+  height: auto !important;
+  margin-left: 35%;
+  }
+.about img {
+  margin-top: 50%;
+}
 .about-desc {
   float: none;
   margin: 5%;
