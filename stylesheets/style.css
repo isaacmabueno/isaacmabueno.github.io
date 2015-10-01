@@ -114,6 +114,7 @@ top:100%;
 }
 .code {
   font-weight: bold;
+  text-decoration: overline;
 }
 
 .about .card {
@@ -167,15 +168,14 @@ top:100%;
     display: inline-block;
     float: left;
 }
-/*.about-img {
-  margin: 5% !important;
-}*/
 .transparent-bg {
   background-color: #FDD262;
   width: 100%;
   border-radius: 1%;
+  margin-bottom: 0 !important;
 }
 .no-code {
+  text-decoration: overline;
   color: #AF420A !important;
   font-weight: bold
 }
@@ -194,9 +194,10 @@ top:100%;
 
 .experience {
   font-weight: bold;
+  text-decoration: overline;
 }
 .about img {
-  margin-top: 10%;
+  margin-top: 1%;
 }
 .contact .col {
     margin-bottom: 24px;
@@ -351,9 +352,6 @@ footer {
   height: auto !important;
   margin-left: 35%;
   }
-.about img {
-  margin-top: 50%;
-}
 .about-desc {
   float: none;
   margin: 5%;
