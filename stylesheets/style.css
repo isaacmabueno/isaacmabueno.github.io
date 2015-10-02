@@ -315,6 +315,10 @@ footer {
   width: 100%;
 }
 
+/*/////////// M E D I A     Q U E R I E S ///////////
+//                                                //
+/////////////////////////////////////////////////*/
+
 @media screen and (max-width:600px) {
 .brand-logo img {
   width: 28% !important;
@@ -336,14 +340,14 @@ nav .nav-wrapper {
   height: 30px !important;
 }
 .linkedin{
-  margin-left: 2% !important;
+  margin-left: 1% !important;
   max-width: 33px !important;
   max-height: 33px !important;
   width: 30px !important;
   height: 30px !important;
 }
 .twitter{
-  margin-left: 2% !important;
+  margin-left: 1% !important;
   max-width: 33px !important;
   max-height: 33px !important;
   width: 30px !important;
@@ -370,14 +374,14 @@ nav .nav-wrapper {
   height: 30px !important;
 }
 .linkedin{
-  margin-left: 2% !important;
+  margin-left: 1% !important;
   max-width: 33px !important;
   max-height: 33px !important;
   width: 30px !important;
   height: 30px !important;
 }
 .twitter{
-  margin-left: 2% !important;
+  margin-left: 1% !important;
   max-width: 33px !important;
   max-height: 33px !important;
   width: 30px !important;
@@ -405,14 +409,14 @@ nav .nav-wrapper {
   height: 30px !important;
 }
 .linkedin{
-  margin-left: 2% !important;
+  margin-left: 1% !important;
   max-width: 33px !important;
   max-height: 33px !important;
   width: 30px !important;
   height: 30px !important;
 }
 .twitter{
-  margin-left: 2% !important;
+  margin-left: 1% !important;
   max-width: 33px !important;
   max-height: 33px !important;
   width: 30px !important;
