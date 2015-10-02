@@ -290,7 +290,26 @@ footer{
 .side-nav{
 height: calc(100% + 60px);
 }
-
+.github {
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+.linkedin{
+  margin-left: 2% !important;
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+.twitter{
+  margin-left: 2% !important;
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
 footer {
   border-top: 1px solid black;
   width: 100%;
@@ -303,9 +322,32 @@ footer {
   margin-left: 35%;
   }
 .about-desc {
-    float: none;
-    margin: 5%;
+  float: none;
+  margin: 5%;
   }
+nav .nav-wrapper {
+  position: relative !important;
+  height: 114% !important;
+}
+.github {
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+.linkedin{
+  margin-left: 2% !important;
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+.twitter{
+  margin-left: 2% !important;
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
 }
 
 @media screen and (min-width:400px) {
@@ -322,27 +364,31 @@ footer {
   margin-top: 30%;
 }
 .github {
-  max-width: 33px;
-  max-height: 33px;
-  width: 30px;
-  height: 30px;
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
 }
 .linkedin{
-  margin-left: 2%;
-  max-width: 33px;
-  max-height: 33px;
-  width: 30px;
-  height: 30px;
+  margin-left: 2% !important;
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
 }
 .twitter{
-  margin-left: 2%;
-  max-width: 33px;
-  max-height: 33px;
-  width: 30px;
-  height: 30px;
+  margin-left: 2% !important;
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
 }
 }
 @media screen and (min-width:300px) {
+nav .nav-wrapper {
+  position: relative !important;
+  height: 114% !important;
+}
 .brand-logo img {
   width: 30% !important;
   height: auto !important;
@@ -353,23 +399,23 @@ footer {
   margin: 5%;
 }
 .github {
-  max-width: 33px;
-  max-height: 33px;
-  width: 30px;
-  height: 30px;
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
 }
 .linkedin{
-  margin-left: 2%;
-  max-width: 33px;
-  max-height: 33px;
-  width: 30px;
-  height: 30px;
+  margin-left: 2% !important;
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
 }
 .twitter{
-  margin-left: 2%;
-  max-width: 33px;
-  max-height: 33px;
-  width: 30px;
-  height: 30px;
+  margin-left: 2% !important;
+  max-width: 33px !important;
+  max-height: 33px !important;
+  width: 30px !important;
+  height: 30px !important;
 }
 }
