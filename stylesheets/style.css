@@ -93,6 +93,7 @@ top:100%;
   text-transform: uppercase;
   margin-bottom: 15px;
   font-family: Fjalla One;
+  letter-spacing: 3px;
 }
 
 .about h6 {
@@ -289,11 +290,6 @@ footer{
 .side-nav{
 height: calc(100% + 60px);
 }
-
-.github img:hover{
-  color: white !important;
-}
-
 
 footer {
   border-top: 1px solid black;
