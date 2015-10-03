@@ -349,8 +349,10 @@ nav .nav-wrapper {
   max-height: 33px !important;
   width: 30px !important;
   height: 30px !important;
+}.about img{
+  margin-top: 5%;
 }
-
+}
 @media screen and (min-width:400px) {
 .brand-logo img {
   width: 30% !important;
@@ -382,6 +384,9 @@ nav .nav-wrapper {
   width: 30px !important;
   height: 30px !important;
 }
+.about img{
+  margin-top: 5%;
+}
 }
 @media screen and (min-width:300px) {
 nav .nav-wrapper {
@@ -396,6 +401,9 @@ nav .nav-wrapper {
 .about-desc {
   float: none;
   margin: 5%;
+}
+.about img{
+  margin-top: 5%;
 }
 .github {
   max-width: 33px !important;
