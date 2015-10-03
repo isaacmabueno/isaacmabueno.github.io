@@ -7,9 +7,14 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $('.materialboxed').materialbox();
-    $(".button-collapse").sideNav();
-    // figure out how to have the nav bar close on click
-    // $('materialboxed').click(hide);
+});
+$(document).ready(function(){
+$('.button-collapse').sideNav({
+    menuWidth: 240,
+    edge: 'left',
+    closeOnClick: true // this closes side-nav on <a> clicks
+  }
+);
 });
 
 // $(document).ready(function() {
@@ -35,6 +40,8 @@ $('.right').fadeIn(1500);
   $('.side-nav').hide();
 $('.side-nav').fadeIn(1500);
 });
+
+
 $(document).ready(function(){
    $('.collapsible').collapsible({
      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
