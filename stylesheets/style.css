@@ -350,7 +350,7 @@ nav .nav-wrapper {
   width: 30px !important;
   height: 30px !important;
 }.about img{
-  margin-top: 5%;
+  margin-top: 5% !important;
 }
 }
 @media screen and (min-width:400px) {
@@ -362,9 +362,6 @@ nav .nav-wrapper {
 .about-desc {
   float: none;
   margin: 5%;
-}
-.about img {
-  margin-top: 30%;
 }
 .github {
   max-width: 33px !important;
@@ -385,7 +382,7 @@ nav .nav-wrapper {
   height: 30px !important;
 }
 .about img{
-  margin-top: 5%;
+  margin-top: 5% !important;
 }
 }
 @media screen and (min-width:300px) {
@@ -403,7 +400,7 @@ nav .nav-wrapper {
   margin: 5%;
 }
 .about img{
-  margin-top: 5%;
+  margin-top: 5% !important;
 }
 .github {
   max-width: 33px !important;
