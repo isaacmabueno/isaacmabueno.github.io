@@ -20,9 +20,6 @@ body {
   background-color: #C0DAD5 !important;
   margin-bottom: 0 !important;
 }
-/*.name {
-  margin-bottom: 100% !important;
-}*/
 .intro {
   background-color: #C0DAD5 !important;
 }
@@ -83,7 +80,6 @@ top:100%;
 .main img{
   width: 20%;
   height: 300px;
-  /*border-radius: 50%;*/
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -95,7 +91,6 @@ top:100%;
   font-family: Fjalla One;
   letter-spacing: 3px;
 }
-
 .about h6 {
   text-align: center;
   text-transform: uppercase;
@@ -155,31 +150,31 @@ top:100%;
   font-weight: 200;
 }
 .portfolio h5 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .portfolio h6 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 45px;
 }
 
 .portfolio hr {
-    width: 40px;
-    margin-bottom: 45px;
+  width: 40px;
+  margin-bottom: 45px;
 }
 
 .portfolio .portfolio-holder {
-    clear: both;
-    text-align: center;
+  clear: both;
+  text-align: center;
 }
 
 .portfolio img {
-    width: 33%;
-    display: inline-block;
-    float: left;
+  width: 33%;
+  display: inline-block;
+  float: left;
 }
 .transparent-bg {
   background-color: #FDD262;
@@ -213,39 +208,39 @@ top:100%;
   margin-top: 1%;
 }
 .contact .col {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .contact h5 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    font-family: "Fjalla One" !important;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: "Fjalla One" !important;
 }
 
 .contact h6 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 45px;
 }
 
 .contact hr {
-    width: 40px;
-    margin-bottom: 45px;
+  width: 40px;
+  margin-bottom: 45px;
 }
 
 .contact .contact-holder {
-    padding-left: 40px;
-    text-align: left;
+  padding-left: 40px;
+  text-align: left;
 }
 
 .contact .contact-holder h6 {
-    margin-bottom: 15px;
-    text-align: left;
+  margin-bottom: 15px;
+  text-align: left;
 }
 
 .contact .contact-holder p {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .contact h5 {
   color: black;
@@ -254,7 +249,7 @@ top:100%;
   color: black;
 }
 footer{
-    padding-top: 0px;
+  padding-top: 0px;
 }
 .email hr {
   width: 40px;
@@ -293,14 +288,8 @@ footer{
 .portfolio h6{
   color: #263238;
 }
-/*.parallax-container {
-  position: relative;
-  overflow: hidden;
-  height: 500px;
-  width: 100%;
-}*/
 .side-nav{
-height: calc(100% + 60px);
+  height: calc(100% + 60px);
 }
 .github {
   max-width: 33px !important;
@@ -326,7 +315,39 @@ footer {
   border-top: 1px solid black;
   width: 100%;
 }
-
+img.hero-image {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+img.hero-image:hover {
+  transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -webkit-transform:rotate(360deg);
+}
+@media print {
+  .gm-style .gmnoprint,
+  .gmnoprint {
+    display:none
+  }
+}
+@media screen {
+ .gm-style .gmnoscreen,
+ .gmnoscreen {
+   display:none
+ }
+}
+.gm-style {
+  font-family: "Roboto",Arial,sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  text-decoration: none
+}
+.gm-style .gm-style-cc span,
+.gm-style .gm-style-cc a,
+.gm-style .gm-style-mtc div {
+  font-size:10px
+}
 /*/////////// M E D I A     Q U E R I E S ///////////
 //                                                //
 /////////////////////////////////////////////////*/
@@ -421,16 +442,16 @@ nav .nav-wrapper {
   width: 30px !important;
   height: 30px !important;
 }
-.linkedin{
+.linkedin {
   max-width: 33px !important;
   max-height: 33px !important;
   width: 30px !important;
   height: 30px !important;
 }
-.twitter{
+.twitter {
   max-width: 33px !important;
   max-height: 33px !important;
   width: 30px !important;
   height: 30px !important;
-}
+  }
 }
