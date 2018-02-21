@@ -74,6 +74,10 @@ top:100%;
 .side-nav {
   display: none;
 }
+
+.about {
+  width: 100%;
+}
 .about .col {
   margin-bottom: 24px;
 }
@@ -172,7 +176,7 @@ top:100%;
 }
 
 .portfolio img {
-  width: 33%;
+  width: 100%;
   display: inline-block;
   float: left;
 }
@@ -433,8 +437,20 @@ nav .nav-wrapper {
   float: none;
   margin: 5%;
 }
+.about-first {
+  padding: 0 10% !important;
+}
+.about-exp {
+    padding: 0 5% 0 10% !important;
+}
+.about-no-code {
+    padding: 0 10% 0 5% !important;
+}
+.portfolio .row {
+  margin-bottom: 0;
+}
 .about img{
-  margin-top: 5% !important;
+  padding: 10% 10% 0 10% !important;
 }
 .github {
   max-width: 33px !important;
