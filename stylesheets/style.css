@@ -100,7 +100,8 @@ top:100%;
   text-transform: uppercase;
   margin-bottom: 45px;
 }
-.livelink h4 a{
+.livelink h4 a, 
+.livelink h4 {
   color: black;
   text-transform: uppercase;
   margin-bottom: 15px;
