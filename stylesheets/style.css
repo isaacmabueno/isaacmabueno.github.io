@@ -475,6 +475,11 @@ nav .nav-wrapper {
   height: 30px !important;
   }
 }
+
+.social-media img {
+    padding: 0 !important;
+    float: none !important;
+}
 img.hero-image {
    -webkit-transition: -webkit-transform .8s ease-in-out;
    -ms-transition: -ms-transform .8s ease-in-out;
