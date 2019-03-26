@@ -44,6 +44,9 @@ nav ul a{
 nav .nav-wrapper {
   background-color: black;
 }
+.nav-wrapper .right {
+        margin-right: 5%;
+}
 nav a.button-collapse i {
   height: 65px;
   line-height: 64px;
@@ -74,7 +77,9 @@ top:100%;
 .side-nav {
   display: none;
 }
-
+.button-collapse {
+    margin-left: 5%;
+}
 .about {
   width: 100%;
   display: inline-block;
