@@ -1,340 +1,335 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Isaac's Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="stylesheets/materialize.min.css"  media="screen,projection"/>
-  <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display+SC|Fjalla+One|Yanone+Kaffeesatz|Oranienbaum' rel='stylesheet' type='text/css'>
-  <style type="text/css">
-  .gm-style .gm-style-cc span,
-  .gm-style .gm-style-cc a,
-  .gm-style .gm-style-mtc div {
-    font-size:10px
-  }
-  </style>
+    <title>Isaac's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link type="text/css" rel="stylesheet" href="stylesheets/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="stylesheets/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display+SC|Fjalla+One|Yanone+Kaffeesatz|Oranienbaum' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="scripts/materialize.min.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
+</head>
+    <body>
+        <!-- ///////////////////////// N A V I G A T I O N    B A R ///////////////////////// -->
+        <a name="home">
+        <div id="container" class="navbar-fixed">
+            <nav class="blue-grey darken-4 z-depth-1">
+                <div class="nav-wrapper">
+                    <a href="#home" class="brand-logo responsive-img"></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+              </div>
+            </nav>
+        </div>
 
-  <link type="text/css"
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+        <!--/////////////////////////      M A I N - M A I N      /////////////////////////-->
+        <a name="home"></a>
+        <div class="intro z-depth-1">
+            <div class="talking-heads responsive-img">
+                <img class="hero-image" src="images/talkinghead.png">
+            </div>
+            <h1 class="name grey darken-3">Isaac Bueno</h1>
+            <h5 class="title text-darken-1">web developer/designer</h5>
+        </div>
+          <!-- /////////////////////////    M Y   P R O J E C T S    ///////////////////////// -->
+          <a name="portfolio"></a>
+              <div class="container portfolio">
+                  <h5>Portfolio</h5>
+                  <hr>
+                  <h6>MY LATEST PROJECTS</h6>
 
-  <style type="text/css">
-    @media print {
-      .gm-style .gmnoprint,
-      .gmnoprint {
-        display:none
-      }
-    }
-    @media screen {
-     .gm-style .gmnoscreen,
-     .gmnoscreen {
-       display:none
-     }
-    }
-  </style>
-  <style type="text/css">
-    .gm-style {
-      font-family: "Roboto",Arial,sans-serif;
-      font-size: 11px;
-      font-weight: 400;
-      text-decoration: none
-    }
-  </style>
-  </head>
-<body>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="scripts/materialize.min.js"></script>
-  <script type="text/javascript" src="scripts/app.js"></script>
-<!-- ///////////////////////// N A V I G A T I O N    B A R /////////////////////////
-    //                                                                           //
-    ////////////////////////////////////////////////////////////////////////////// -->
-<a name="home">
-<div id="container" class="navbar-fixed">
-    <nav class="blue-grey darken-4 z-depth-1">
-      <div class="nav-wrapper">
-        <a href="#home" class="brand-logo responsive-img"></a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+                  <div class="row">
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4><a href="https://rocky-harbor-50956.herokuapp.com/" target="blank" rel="nofollow">Honor Agency</a></h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/honor.jpg" data-caption="Honor Agency">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
+                                  <div class="collapsible-body"><p>This is an design and development agency that my wife and I created!</p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>React, Node, HTML5, CSS3, PHOTOSHOP, ILLUSTRATOR</p></div>
+                              </li>
+                          </ul><br>
+                      </div>
+
+
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4><a href="https://infinite-coast-40991.herokuapp.com/" target="blank" rel="nofollow">Dad Jokes</a></h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/dad.jpg" data-caption="Dad Jokes">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
+                                  <div class="collapsible-body"><p>Just a simple and fun project to learn some React basics as well as a way to funnel my dad jokes into the world.</p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>React, Node, HTML5, CSS3, PHOTOSHOP, ILLUSTRATOR</p></div>
+                              </li>
+                          </ul><br>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4><a href="https://indoorsciences.com" target="blank" rel="nofollow">Indoor Sciences</a></h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/indoor-sciences.jpg" data-caption="Indoor Sciences">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
+                                  <div class="collapsible-body"><p>This is a website for Indoor Sciences, a training and consulting firm with a mission to make buildings healthy. Indoor Sciences is located in Chicago, but its clients stretch around the globe.</p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>HTML5, CSS3, PHP, JAVASCRIPT, JQUERY, PHOTOSHOP, ILLUSTRATOR</p></div>
+                              </li>
+                          </ul><br>
+                      </div>
+
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4><a href="https://cps606.com">Chitown Property Services</a></h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/chitown-property-services.jpg" data-caption="Chitown Property Services">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
+                                  <div class="collapsible-body"><p>Chitown Property Services is a property services group providing maintenance and renovation solutions to the Chicagoland area.</p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>HTML5, CSS3, PHP, JAVASCRIPT, JQUERY, PHOTOSHOP, ILLUSTRATOR</p></div>
+                              </li>
+                          </ul><br>
+                      </div>
+                  </div>
+
+
+                  <div class="row">
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4>RUBEN'S UNISEX</h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/rubens.jpg" data-caption="Rubens Unisex">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
+                                  <div class="collapsible-body"><p>Currently in developement, this website is being designed and developed from scratch. Ruben's Unisex is a trendy neigborhood and established barbershop located in West Town.</p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>React, Node, HTML5, CSS3, PHOTOSHOP, ILLUSTRATOR</p></div>
+                              </li>
+                          </ul><br>
+                      </div>
+
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4><a href="https://florencerealtyco.com">Florence Realty Co.</a></h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/realty.jpg" data-caption="Florence Realty Co">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
+                                  <div class="collapsible-body"><p>Design and Development for Florence Realty Co, located in Denver, CO. </p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>HTML5, CSS3, PHP, JAVASCRIPT, JQUERY, RESPONSIVE WEB DESIGN</p></div>
+                              </li>
+                          </ul><br>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4><a href="http://www.trecutr.com" target="_blank">Aesthetic Tree Service</a></h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/trecutr.jpg" data-caption="Aesthetic Denver">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
+                                  <div class="collapsible-body"><p>This is a webpage made for Aesthetic Tree Services & Recycling, an established tree service and recycling provider in Denver, CO. The purpose of the webpage is to provide a wider net of clientele through creating a web presence and contact form, providing new business inquiries and opportunity</p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>HTML5, CSS3, PHP, JAVASCRIPT, JQUERY, RESPONSIVE WEB DESIGN</p></div>
+                              </li>
+                          </ul><br>
+                      </div>
+
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4><a href="http://www.presenttensefineales.com" target="_blank">Present Tense Fine Ales</a></h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/ptfa.jpg" data-caption="Present Tense Fine Ales">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
+                                  <div class="collapsible-body"><p>This is a webpage made for Present Tense Fine Ales, a local Brewing Company in the West Town neighborhood of Chicago. The purpose of the webpage is simply a way to get the content of the brewers and their product on the Web.</p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, JQUERY, RESPONSIVE WEB DESIGN</p></div>
+                              </li>
+                          </ul><br>
+                      </div>
+                  </div>
+
+
+                  <div class="row">
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4><a href="http://www.thepactmusic.com" target="_blank">The Pact Music</a></h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/thepact.png" data-caption="The Pact Music">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Summary</div>
+                                  <div class="collapsible-body"><p>The Pact Music is a static web page, built for the Chicago act, "The Pact". The purpose of this webpage is to provide news and a web-presence for the band. The page allows you to access follow the band through social-medias, purchase music through itunes or spotify and see the most up to date shows/tour dates.</p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>HTML5, CSS3, FOUNDATION 5, JAVASCRIPT, JQUERY, RESPONSIVE WEB DESIGN</p></div>
+                              </li>
+                          </ul>
+                      </div>
+
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4><a href="https://songcity.herokuapp.com" target="_blank">Song City</a></h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/songcity.png" data-caption="Song City">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Summary</div>
+                                  <div class="collapsible-body"><p>Song City is a full stack web application that finds the current concerts/festivals based on any city in the world. To provide a simple and effective user experience for finding local shows/festivals in your area.</p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>HTML5, CSS3, SASS, Media Queries, BOOTSTRAP, API, AJAX, JSON, JAVASCRIPT, JQUERY, MVC, SINATRA, ACIVE RECORD, Ruby, SQL.</p></div>
+                              </li>
+                          </ul><br>
+                      </div>
+                  </div>
+
+
+                  <div class="row">
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4>LD-EVERYDAY</a></h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/ldeveryday.png" data-caption="LD-Everyday">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
+                                  <div class="collapsible-body"><p>A full stack application in Sinatra using Backbone.js. LD-EVERYDAY is a fun source for getting randomly generated Larry David quotes. The purpose of this application is to simply display an example of rending data through a RESTful API that I built. The RESTful API was built from data I collected from IMDB.</p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>HTML, CSS, JavaScript, jQuery, Backbone.js, Sinatra, Active Record, SASS, Postgresql, ENV, Photoshop</p></div>
+                              </li>
+                          </ul><br>
+                      </div>
+
+
+                      <div class="col s12 m6 portfolio-holder">
+                          <div class="livelink">
+                              <h4>MISTERMGR</a></h4>
+                          </div>
+                          <img class="materialboxed col s12" width="300" src="images/mistermgr.png" data-caption="mister mgr">
+                          <ul class="collapsible" data-collapsible="accordion">
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Summary</div>
+                                  <div class="collapsible-body"><p>Mister mgr is a full stack application built in the MEAN stack. The purpose of this website is for businesses to be able to create a client database and send email's after job completion.</p></div>
+                              </li>
+                              <li>
+                                  <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
+                                  <div class="collapsible-body"><p>HTML, CSS, Jacascript, jQuery, MongoDB, Express, Angular.js, Node, Inkscape, Skeleton</p></div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-    </nav>
-</div>
 
-    <!--/////////////////////////      M A I N - M A I N      /////////////////////////
-       //                                                                           //
-       //////////////////////////////////////////////////////////////////////////////-->
-    <a name="home">
-      <div class="intro z-depth-1">
-        <div class="talking-heads responsive-img">
-          <img class="hero-image" src="images/talkinghead.png">
-        </div>
-        <h1 class="name grey darken-3">Isaac Bueno</h1>
-        <h5 class="title text-darken-1">web developer/designer</h5>
-      </div>
-      <!-- /////////////////////////    M Y   P R O J E C T S    /////////////////////////
-          //                                                                           //
-          ////////////////////////////////////////////////////////////////////////////// -->
-            <a name="portfolio">
-          <div class="container portfolio">
-        <h5>Portfolio</h5>
-          <hr>
-        <h6>MY LATEST PROJECTS</h6>
-
-        <div class="livelink">
-                  <h4>RUBEN'S UNISEX</h4>
-                </div>
+              <!-- /////////////////////////     A B O U T      M E      ///////////////////////// -->
+    <a name="about"></a>
+        <div class="container about"><h5>About</h5><hr>
+          <h5 class="about-desc">I am Isaac Bueno, a Web Developer in Chicago, IL.</h5><br>
+          <div class='transparent-bg'>
               <div class="row">
-              <div class="col s12 m12 l12 portfolio-holder">
-              <img class="materialboxed col s12" width="300" src="images/rubens-hero.jpg" data-caption="PTFA-Wordpress CMS/HTML/CSS/JS">
-                <ul class="collapsible" data-collapsible="accordion">
-                  <li>
-                    <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
-                    <div class="collapsible-body"><p>Currently in developement, this website is being designed and developed from scratch. Ruben's Unisex is a trendy neigborhood and established barbershop located in West Town.</p></div>
-                  </li>
-                  <li>
-                  <li>
-                    <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
-                    <div class="collapsible-body"><p>Wordpress, HTML5, CSS3, PHP, JAVASCRIPT, JQUERY, PHOTOSHOP, ILLUSTRATOR</p></div>
-                  </li>
-                </ul><br>
-
-                <div class="livelink">
-                  <h4>Florence Realty Co.</h4>
-                </div>
+                  <div class="col s12 m5">
+                      <img class="responsive-img circle about-img" src="images/isaacbueno-1.png" />
+                  </div>
+                  <div class="col s12 m7 about-first">
+                      <p class="code">Web Development</p>
+                      <p>I am passionate about coding, learning new technologies, creative design and building beautiful applications. I want to bring my skills in web development to a company that I can learn from and contribute to.</p>
+                      <p>I have always been interested in web development & design. After being introduced to some front-end basics, I decided that I wanted to pursue web development full time. I spent my time building static webpages at coffee shops while working a full time job. After about six months of self taught web development I knew that it had become a serious passion, so I took a chance. I joined a full stack cohort of new web developers who were excited to learn and build together. I am eager to continue learning and delve deeper so I can continue growing as developer.</p>
+                  </div>
+              </div>
               <div class="row">
-              <div class="col s12 m12 l12 portfolio-holder">
-              <img class="materialboxed col s12" width="300" src="images/realty.jpg" data-caption="PTFA-Wordpress CMS/HTML/CSS/JS">
-                <ul class="collapsible" data-collapsible="accordion">
-                  <li>
-                    <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
-                    <div class="collapsible-body"><p>This is a landing page design for Florence Realty Co, located in Denver, CO. </p></div>
-                  </li>
-                  <li>
-                  <li>
-                    <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
-                    <div class="collapsible-body"><p>Wordpress, HTML5, CSS3, PHP, JAVASCRIPT, JQUERY, PHOTOSHOP, ILLUSTRATOR</p></div>
-                  </li>
-                </ul><br>
-
-        <div class="livelink">
-                  <h4>Present Tense Fine Ales (REDESIGN)</h4>
-                </div>
-              <div class="row">
-              <div class="col s12 m12 l12 portfolio-holder">
-              <img class="materialboxed col s12" width="300" src="images/ptfa-redesign.jpg" data-caption="PTFA-Wordpress CMS/HTML/CSS/JS">
-                <ul class="collapsible" data-collapsible="accordion">
-                  <li>
-                    <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
-                    <div class="collapsible-body"><p>Redesigning the website. Adding new features, labels (in collaboration with my wife), and overall look and feel</p></div>
-                  </li>
-                  <li>
-                  <li>
-                    <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
-                    <div class="collapsible-body"><p>Wordpress, HTML5, CSS3, PHP, JAVASCRIPT, JQUERY, PHOTOSHOP, ILLUSTRATOR</p></div>
-                  </li>
-                </ul><br>
-
-        <div class="livelink">
-          <h4><a href="http://www.trecutr.com" target="_blank">Aesthetic Tree Service</a></h4>
-        </div>
-      <div class="row">
-      <div class="col s12 m12 l12 portfolio-holder">
-      <img class="materialboxed col s12" width="300" src="images/trecutr-hero.jpg" data-caption="trecutr-Wordpress CMS/HTML/CSS/JS">
-        <ul class="collapsible" data-collapsible="accordion">
-          <li>
-            <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
-            <div class="collapsible-body"><p>This is a webpage made for Aesthetic Tree Services & Recycling, an established tree service and recycling provider in Denver, CO.</p></div>
-          </li>
-          <li>
-            <div class="collapsible-header"><i class="material-icons"></i>Purpose</div>
-            <div class="collapsible-body"><p>The purpose of the webpage is to provide a wider net of clientele through creating a web presence and contact form, providing new business inquiries and opportunity</p></div>
-          </li>
-          <li>
-            <div class="collapsible-header"><i class="material-icons"></i>How It Works</div>
-            <div class="collapsible-body"><p>The Aesthetic Tree Services & Recycling page has been tailored by the client and allows for the client to make updates using the Wordpress CMS.</p></div>
-          </li>
-          <li>
-            <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
-            <div class="collapsible-body"><p>Wordpress, HTML5, CSS3, PHP, JAVASCRIPT, JQUERY, RESPONSIVE WEB DESIGN</p></div>
-          </li>
-        </ul><br>
-
-        <div class="livelink">
-          <h4><a href="http://www.presenttensefineales.com" target="_blank">Present Tense Fine Ales</a></h4>
-        </div>
-      <div class="row">
-      <div class="col s12 m12 l12 portfolio-holder">
-      <img class="materialboxed col s12" width="300" src="images/presenttense.png" data-caption="Present Tense Fine Ales-HTML/CSS/JS">
-        <ul class="collapsible" data-collapsible="accordion">
-          <li>
-            <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
-            <div class="collapsible-body"><p>This is a webpage made for Present Tense Fine Ales, a local Brewing Company in the West Town neighborhood of Chicago.</p></div>
-          </li>
-          <li>
-            <div class="collapsible-header"><i class="material-icons"></i>Purpose</div>
-            <div class="collapsible-body"><p>The purpose of the webpage is simply a way to get the content of the brewers and their product on the Web.</p></div>
-          </li>
-          <li>
-            <div class="collapsible-header"><i class="material-icons"></i>How It Works</div>
-            <div class="collapsible-body"><p>The page is simple with complex elements, which is a primary character found in the flavor of Present Tense beers.</p></div>
-          </li>
-          <li>
-            <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
-            <div class="collapsible-body"><p>HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, JQUERY, RESPONSIVE WEB DESIGN</p></div>
-          </li>
-        </ul>
-
-        <br>
-        <div class="livelink">
-          <h4><a href="http://www.thepactmusic.com" target="_blank">The Pact Music</a></h4>
-        </div>
-      <img class="materialboxed col s12" width="300" src="images/thepact.png" data-caption="The Pact Music- HTML/CSS/JS">
-        <ul class="collapsible" data-collapsible="accordion">
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>Summary</div>
-              <div class="collapsible-body"><p>The Pact Music is a static web page, built for the Chicago act, "The Pact".</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>Purpose</div>
-              <div class="collapsible-body"><p>The purpose of this webpage is to provide news and a web-presence for the band.</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>How It Works</div>
-              <div class="collapsible-body"><p>The page allows you to access follow the band through social-medias, purchase music through itunes or spotify and see the most up to date shows/tour dates.</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
-              <div class="collapsible-body"><p>HTML5, CSS3, FOUNDATION 5, JAVASCRIPT, JQUERY, RESPONSIVE WEB DESIGN</p></div>
-          </li>
-        </ul>
-
-        <h5>&nbsp;</h5>
-        <div class="livelink">
-          <h4><a href="https://songcity.herokuapp.com" target="_blank">Song City</a></h4>
-        </div>
-      <img class="materialboxed col s12" width="300" src="images/songcity.png" data-caption="Song City- Full Stack App Using Sinatra">
-        <ul class="collapsible" data-collapsible="accordion">
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>Summary</div>
-              <div class="collapsible-body"><p>Song City is a full stack web application that finds the current concerts/festivals based on any city in the world.</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>Purpose</div>
-              <div class="collapsible-body"><p>To provide a simple and effective user experience for finding local shows/festivals in your area.</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>How It Works</div>
-              <div class="collapsible-body"><p>Enter the name of a city. Find shows and festivals in that city. Enjoy!</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
-              <div class="collapsible-body"><p>HTML5, CSS3, SASS, Media Queries, BOOTSTRAP, API, AJAX, JSON, JAVASCRIPT, JQUERY, MVC, SINATRA, ACIVE RECORD, Ruby, SQL.</p></div>
-          </li>
-        </ul><br>
-
-        <div class="livelink">
-          <h4>LD-EVERYDAY</a></h4>
-        </div>
-      <img class="materialboxed col s12" width="300" src="images/ldeveryday.png" data-caption="LD-Everyday- Full stack App using Backbone.js">
-        <ul class="collapsible" data-collapsible="accordion">
-          <li>
-              <div class="collapsible-header"><i class="material-icons top-box"></i>Summary</div>
-              <div class="collapsible-body"><p>A full stack application in Sinatra using Backbone.js. LD-EVERYDAY is a fun source for getting randomly generated Larry David quotes. The purpose of this application is to simply display an example of rending data through a RESTful API that I built. The RESTful API was built from data I collected from IMDB.</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>Purpose</div>
-              <div class="collapsible-body"><p>The purpose of this website is to use Backbone.js to render data through the RESTful API.</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>How It Works</div>
-              <div class="collapsible-body"><p>The website is simple in its functionality. Every time you click Larry's name tag he spits out a new quote.</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
-              <div class="collapsible-body"><p>HTML, CSS, JavaScript, jQuery, Backbone.js, Sinatra, Active Record, SASS, Postgresql, ENV, Photoshop</p></div>
-          </li>
-        </ul><br>
-
-         <div class="livelink">
-          <h4>MISTERMGR</a></h4>
-        </div>
-      <img class="materialboxed col s12" width="300" src="images/mistermgr.png" data-caption="mister mgr- MEAN stack app">
-        <ul class="collapsible" data-collapsible="accordion">
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>Summary</div>
-              <div class="collapsible-body"><p>Mister mgr is a full stack application built in the MEAN stack.</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>Purpose</div>
-              <div class="collapsible-body"><p>The purpose of this website is for businesses to be able to create a client database and send email's after job completion.</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>How It Works</div>
-              <div class="collapsible-body"><p>You add in a customers information and populate your database. Once this is done you are able to send your clients a customizable email.</p></div>
-          </li>
-          <li>
-              <div class="collapsible-header"><i class="material-icons"></i>Technologies Used</div>
-              <div class="collapsible-body"><p>HTML, CSS, Jacascript, jQuery, MongoDB, Express, Angular.js, Node, Inkscape, Skeleton</p></div>
-          </li>
-        </ul>
+                  <div class="col s12 m6 about-exp">
+                      <p class="experience"> Background</p>
+                      <p> I traveled the world for years as a drummer in a touring band and was a part of merchandising and setting up the visual elements of our stage design.</p>
+                  </div>
+                  <div class="col s12 m6 about-exp">
+                      <p class="no-code">When I am not coding:</p>
+                      <p>I like to make music, go to shows, visit breweries, drink coffee, read and hang out with my lovely wife.</p>
+                  </div>
+              </div>
           </div>
         </div>
-      </div>
 
-      <!-- /////////////////////////     A B O U T      M E      /////////////////////////
-          //                                                                           //
-          ////////////////////////////////////////////////////////////////////////////// -->
-          <a name="about">
-    <div class="container about"><h5>About</h5><hr>
-      <h5 class="about-desc">I am Isaac Bueno, a Web Developer in Chicago, IL.</h5><br>
-    <div class='transparent-bg'>
-      <div class="row">
-<!-- <div class="col s1">&nbsp;</div> -->
 
-<div class="col s12 m5"><img class="responsive-img circle about-img" src="images/isaacbueno-1.png" /></div>
-      <div class="col s12 m7 about-first"><p class="code">Web Development</p><p>I am passionate about coding, learning new technologies, creative design and building beautiful applications. I want to bring my skills in web development to a company that I can learn from and contribute to.</p><p>I have always been interested in web development & design. After being introduced to some front-end basics, I decided that I wanted to pursue web development full time. I spent my time building static webpages at coffee shops while working a full time job. After about six months of self taught web development I knew that it had become a serious passion, so I took a chance. I joined a full stack cohort of new web developers who were excited to learn and build together. I am eager to continue learning and delve deeper so I can continue growing as developer.</p></div>
-      <!-- <div class="col s1">&nbsp;</div> -->
+<!-- /////////////////////////    C O N T A C T     M E    /////////////////////////-->
+    <div class="row">
+        <div class="container contact"><a name="contact"></a>
+            <h5>contact</h5>
+            <h6>get in touch</h6>
+            <hr>
+        </div>
     </div>
     <div class="row">
-      <div class="col s6 about-exp"><p class="experience"> Background</p><p> I traveled the world for years as a drummer in a touring band and was a part of merchandising and setting up the visual elements of our stage design.</p></div>
-      <div class="col s6 about-no-code"><p class="no-code">When I am not coding:</p><p>I like to make music, go to shows, visit breweries, drink coffee, read and hang out with my lovely wife.</p></div>
+        <div class="container email">
+            <h5><a class="email" href="mailto:isaacmabueno@gmail.com">isaacmabueno@gmail.com</a></h5>
+            <hr>
+        </div>
     </div>
-  </div>
+        <div class="row">
+            <div class="col s4">&nbsp;</div>
+            <div class="col s4 social-media center">
+                <a href="https://github.com/isaacmabueno" target="_blank"><img class="github" src="https://i.imgur.com/8YZMglO.png"/></a>
+                <a href="https://www.linkedin.com/in/isaacmabueno" target="_blank"><img class="linkedin" src="https://i.imgur.com/qR6k5CG.png"/></a>
+                <a href="https://twitter.com/isaacmabueno" target="_blank"><img class="twitter" src="https://i.imgur.com/mkPGMqO.png?3"/></a>
+            </div>
+            <div class="col s4">&nbsp;</div>
+        </div>
 
-
-      <!-- /////////////////////////    C O N T A C T     M E    /////////////////////////
-          //                                                                           //
-          ////////////////////////////////////////////////////////////////////////////// -->
-      <div class="container contact"><a name="contact">
-        <h5>contact</h5>
-        <h6>get in touch</h6>
-        <hr>
-      </div>
-      <div class="container email">
-        <h5><a class="email" href="mailto:isaacmabueno@gmail.com">isaacmabueno@gmail.com</a></h5>
-        <hr>
-      </div>
-    <div class="row">
-      <div class="col s4">&nbsp;</div>
-      <div class="col s4 social-media center">
-     <a href="https://github.com/isaacmabueno" target="_blank"><img class="github" src="https://i.imgur.com/8YZMglO.png"/></a>
-     <a href="https://www.linkedin.com/in/isaacmabueno" target="_blank"><img class="linkedin" src="https://i.imgur.com/qR6k5CG.png"/></a>
-     <a href="https://twitter.com/isaacmabueno" target="_blank"><img class="twitter" src="https://i.imgur.com/mkPGMqO.png?3"/></a>
-      </div>
-      <div class="col s4">&nbsp;</div>
-    </div>
-
-      <footer> &copy; Isaac Bueno 2018</footer>
-</body>
+        <footer> &copy; Isaac Bueno 2019</footer>
+    </body>
 </html>

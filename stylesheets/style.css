@@ -81,11 +81,8 @@ top:100%;
     margin-left: 5%;
 }
 .about {
-  width: 100%;
-  display: inline-block;
-}
-.about .col {
-  margin-bottom: 24px;
+  width: 70%;
+  display: block;
 }
 .main img{
   width: 20%;
@@ -178,8 +175,14 @@ top:100%;
 }
 
 .portfolio .portfolio-holder {
-  clear: both;
   text-align: center;
+}
+
+img.materialboxed {
+    transition: transform 1s;
+}
+img.materialboxed:hover {
+    transform: translate(10px, -10px);
 }
 
 .portfolio img {
@@ -229,6 +232,7 @@ top:100%;
   text-transform: uppercase;
   margin-bottom: 15px;
   font-family: "Fjalla One" !important;
+  margin-top: 5%;
 }
 
 .contact h6 {
@@ -263,6 +267,7 @@ top:100%;
 }
 footer{
   padding-top: 0px;
+  padding-left: 5%;
 }
 .email hr {
   width: 40px;
@@ -361,9 +366,30 @@ img.hero-image:hover {
 .gm-style .gm-style-mtc div {
   font-size:10px
 }
+.about img{
+  padding: 10% 10% 0 10% !important;
+}
 /*/////////// M E D I A     Q U E R I E S ///////////
 //                                                //
 /////////////////////////////////////////////////*/
+@media screen and (max-width: 767px) {
+    .about-first {
+        width: 100% !important;
+    }
+    .transparent-bg .s12 {
+        width: 100% !important;
+    }
+    .transparent-bg {
+        padding: 30px 0 !important;
+    }
+    .about img {
+        padding: 0 25% 0 25% !important;
+        margin-top: 5% !important;
+    }
+    .s12 {
+        width: 100% !important;
+    }
+}
 
 @media screen and (max-width:600px) {
 .brand-logo img {
@@ -428,9 +454,6 @@ nav .nav-wrapper {
   width: 30px !important;
   height: 30px !important;
 }
-.about img{
-  margin-top: 5% !important;
-}
 }
 @media screen and (min-width:300px) {
 nav .nav-wrapper {
@@ -457,9 +480,6 @@ nav .nav-wrapper {
 }
 .portfolio .row {
   margin-bottom: 0;
-}
-.about img{
-  padding: 10% 10% 0 10% !important;
 }
 .github {
   max-width: 33px !important;
