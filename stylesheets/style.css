@@ -372,6 +372,11 @@ img.hero-image:hover {
 /*/////////// M E D I A     Q U E R I E S ///////////
 //                                                //
 /////////////////////////////////////////////////*/
+@media screen and (max-width: 1350px) {
+    .livelink h4 {
+        font-size: 20px;
+    }
+}
 @media screen and (max-width: 767px) {
     .about-first {
         width: 100% !important;
