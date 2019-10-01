@@ -28,6 +28,12 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.25rem;
 }
+.talking-heads.responsive-img {
+    border: 3px solid #fff;
+    width: 15%;
+    margin: 0 auto;
+    padding: 15px;
+}
 .grey.darken-3 {
   background-color: #C0DAD5 !important;
   margin-bottom: 0 !important;
@@ -210,8 +216,8 @@ img.materialboxed:hover {
 .transparent-bg {
   background-color: #FDD262;
   width: 100%;
-  border-radius: 1%;
   margin-bottom: 0 !important;
+  border: 3px solid #fff;
 }
 .no-code {
   text-decoration: overline;
@@ -394,7 +400,24 @@ img.hero-image:hover {
         font-size: 20px;
     }
 }
+@media screen and (max-width: 1020px) {
+  .talking-heads.responsive-img {
+      border: 3px solid #fff;
+      width: 25%;
+      margin: 0 auto;
+      padding: 25px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .talking-heads.responsive-img {
+      border: 3px solid #fff;
+      width: 35%;
+      margin: 0 auto;
+      padding: 35px 0;
+  }
+}
 @media screen and (max-width: 767px) {
+
     .about-first {
         width: 100% !important;
     }
@@ -414,39 +437,50 @@ img.hero-image:hover {
 }
 
 @media screen and (max-width:600px) {
-.brand-logo img {
-  width: 28% !important;
-  height: auto !important;
-  margin-left: 35%;
+    .brand-logo img {
+        width: 28% !important;
+        height: auto !important;
+        margin-left: 35%;
+      }
+    .about-desc {
+        float: none;
+        margin: 5%;
+      }
+    nav .nav-wrapper {
+        position: relative !important;
+        height: 114% !important;
+    }
+    .github {
+        max-width: 33px !important;
+        max-height: 33px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .linkedin{
+        max-width: 33px !important;
+        max-height: 33px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .twitter{
+        max-width: 33px !important;
+        max-height: 33px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }.about img{
+        margin-top: 5% !important;
+    }
+}
+@media screen and (max-width: 479px) {
+    .talking-heads.responsive-img {
+      border: 3px solid #fff;
+      width: 50%;
+      margin: 0 auto;
+      padding: 25px 0;
   }
-.about-desc {
-  float: none;
-  margin: 5%;
+  .intro h1 {
+    font-size: 4em;
   }
-nav .nav-wrapper {
-  position: relative !important;
-  height: 114% !important;
-}
-.github {
-  max-width: 33px !important;
-  max-height: 33px !important;
-  width: 30px !important;
-  height: 30px !important;
-}
-.linkedin{
-  max-width: 33px !important;
-  max-height: 33px !important;
-  width: 30px !important;
-  height: 30px !important;
-}
-.twitter{
-  max-width: 33px !important;
-  max-height: 33px !important;
-  width: 30px !important;
-  height: 30px !important;
-}.about img{
-  margin-top: 5% !important;
-}
 }
 @media screen and (min-width:400px) {
 .brand-logo img {
