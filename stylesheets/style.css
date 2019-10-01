@@ -16,15 +16,26 @@ body {
   padding-bottom: 13%;
   margin-bottom: 50px;
 }
+.greetings {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 30px 0;
+}
+.greetings span {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
 .grey.darken-3 {
   background-color: #C0DAD5 !important;
   margin-bottom: 0 !important;
 }
 .intro {
-  background-color: #C0DAD5 !important;
+  background-color: #fdd262;
 }
 .text-darken-1 {
-  color: #CCC591 !important;
   background-color: #C0DAD5 !important;
   margin-top: 0;
 }
@@ -32,7 +43,13 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   font-size:5em;
-  color: #CCC591;
+  color: #fff;
+}
+.intro h2 {
+    font-size: 2rem;
+    line-height: 110%;
+    margin: 1.78rem 0 1.424rem 0;
+    color: #fff;
 }
 nav ul a{
   color: #CCC591 !important;
